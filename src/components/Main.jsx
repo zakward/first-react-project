@@ -2,6 +2,8 @@
 
 function Main() {
 
+
+
     const username = "John Doe"
 
     const userStyles = {
@@ -10,7 +12,7 @@ function Main() {
     }
 
     return (
-        <div>
+        <div className = "main-content">
             <h1 style={userStyles}>Welcome, {username}</h1>
             <ol>
                 <li>It's a popular library, so I'll be in the know</li>

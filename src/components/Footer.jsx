@@ -2,10 +2,13 @@
 
 export default function Footer(){
 
+// Challenge: Add any JSX and style it.
+// Use flexbox to position the jax in the center of the footer.
+
     return(
-        <div>
-            <h1>My footer</h1>
-        </div>
+        <footer className="footer">
+        <p>&copy; 2024 My React App</p>
+      </footer>
     )
 }
 
